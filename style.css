@@ -1,0 +1,79 @@
+/* Using 2 local fonts */
+@font-face {
+    font-family: 'Dreamhearts_DEMO';
+    src: url('Assets/Dreamhearts_DEMO.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-family: 'Strawberry';
+    src: url('Assets/Strawberry.ttf') format('truetype');
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-family: 'Dreamhearts_DEMO';
+    font-size: 60px;
+    color: #e13e50;
+    text-shadow: 0 0 5px #541020, 0 0 10px #541020, 0 0 20px #541020, 0 0 40px #fee2f1, 0 0 80px #fee2f1, 0 0 90px #fee2f1, 0 0 100px #fee2f1, 0 0 150px #fee2f1;
+    text-align: center;
+    transition: font-size 0.3s ease-in-out;
+
+}
+
+article {
+    border-width: 20px;
+    border-style: solid;
+    border-image: url(Assets/strawberry.png) 100 round;
+    border-radius: 20px;
+    
+}
+p{
+    font-family: 'Strawberry';
+    font-size: 30px;
+    color: #ecebe9;
+    text-align:center;
+    text-shadow: 0 0 5px #541020, 0 0 10px #541020;
+}
+
+h2{
+    font-family: 'Strawberry';
+    color: #ecebe9;
+    text-align:center;
+    text-shadow: 0 0 5px #541020, 0 0 10px #541020;
+}
+
+h1:hover {
+    font-size: 100px;
+}
+
+body{
+    background-image: url(Assets/rm295-mynt-22.jpg);
+    background-size: cover;
+    background-repeat: 0;
+}
+
+footer {
+    background-color: #a68e91;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+audio {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    background-color: #e13f51;
+}
+
+img{
+    width: 375 px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
